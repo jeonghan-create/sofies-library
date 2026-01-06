@@ -4,95 +4,222 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sofie's Library</title>
+
     <style>
+        body {
+            background-color: rgb(245, 180, 226);
+            margin: 0;
+            padding: 10px;
+        }
+
         h1 {
-            border-width: 2px;
+            border: 2px solid black;
             border-radius: 10px;
             background-color: rgb(252, 246, 255);
             color: black;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            border-style: solid;
             text-align: center;
             font-size: large;
             font-weight: 450;
-        }
-
-        h3 {
-            border-width: 5px;
-            border-radius: 10px;
-            background-color: rgb(226, 117, 201);
-            color: rgb(0, 0, 0);
-            font-family: 'Times New Roman', Times, serif;
-            width: 80%;
-            border-collapse: collapse;
-            border-color: aliceblue;
+            padding: 10px;
         }
 
         h2 {
-            border-width: 5px;
-            border-collapse: collapse;
+            border: 5px groove rgb(219, 128, 180);
             border-radius: 10px;
-            background-color:rgb(252, 225, 243);
+            background-color: rgb(252, 225, 243);
             font-style: oblique;
-            border-color: rgb(219, 128, 180);
-            border-style: groove;
+            padding: 10px;
+            margin-top: 30px;
         }
 
-        body {
-            background-color: rgb(245, 180, 226);
+        h3 {
+            border: 5px solid aliceblue;
+            border-radius: 10px;
+            background-color: rgb(226, 117, 201);
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            width: 80%;
+            padding: 10px;
+            margin: 15px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
 
         .gif-right {
-    float: right;
-    width: 180px;
-    max-width: 40%;
-    margin: 10px;
-}
+            float: right;
+            width: 180px;
+            max-width: 40%;
+            margin: 10px;
+        }
 
-@media (max-width: 768px) {
-    .gif-right {
-        float: none;
-        display: block;
-        margin: 20px auto;
-        width: 70%;
-        max-width: 250px;
-    }
-}
-      </style>
+        .clear {
+            clear: both;
+        }
+
+        @media (max-width: 768px) {
+            h3 {
+                width: 100%;
+            }
+
+            .gif-right {
+                float: none;
+                display: block;
+                margin: 20px auto;
+                width: 70%;
+                max-width: 250px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <div>
-    <h1>Welcome to Sofie's Library! </h1>
-    <h1>Format:<br>Date<br>Title<br>Work<br>(I don't have the date all the time, so you won't see it on every work.)</h1>
-</div>
-    <div>
+
+    <h1>Welcome to Sofie's Library!</h1>
+    <h1>
+        Format:<br>
+        Date<br>
+        Title<br>
+        Work<br>
+        (I don't have the date all the time, so you won't see it on every work.)
+    </h1>
+
     <h2>Poems</h2>
-    <h3>12/14/25<br>Title: Have you ever thought?<br>Have you ever thought of noticing someone?<br>Have you ever thought of checking on them?<br>Your interactions aren't a ton,<br>But they still love you,<br>Between you two,<br>Bond doesn't stem,<br>Although you're busy,<br>They still care,<br>They wish you could see,<br>The silence they'd tear.</h3>
-    <h3>Title: The Woman<br>The woman walked freely,<br>Her eyes glimmered with grace,<br>The woman was lovely,<br>Her presence made hearts race,<br>The woman always smiled,<br>You could see it wide from a mile,<br>The woman was a kind soul,<br>To lighten the world was her goal,<br>The woman loved and loved,<br>She gave herself away,<br>It felt like being harshly shoved,<br>Because now she can't stay.</h3>
-     <h3>1/3/26<br>Just Maybe:<br>Maybe, just maybe, if I gave you a chance,<br>Maybe, just maybe, if I gave you a glance,<br>I should've known—<br>I was cold and heartless,<br>To do such a thing,<br>You're not something I own,<br>I was just careless,<br>Now that you're gone,<br>I build walls to cling,<br>Because my comfort has been withdrawn.</h3>
-        <h3>12/24/25<br>Flower:<br>At first, you were the best thing ever,<br>You were someone I couldn't let go,<br>It felt like us forever,<br>You were like a fresh flower,<br>We met just when I felt low,<br>But now, I'm starting to feel lower.<br><br>Is it just me?<br>Or were you just an illusion?<br>With you, I felt free,<br>Until you became rotten,<br>Your pureness might be a delusion,<br>But our love will never be forgotten.</h3>
-        <img src="dkymist-dokyeom.gif" alt="dokkeyey" class="gif-right">
+
+    <h3>
+        12/14/25<br>
+        Title: Have you ever thought?<br>
+        Have you ever thought of noticing someone?<br>
+        Have you ever thought of checking on them?<br>
+        Your interactions aren't a ton,<br>
+        But they still love you,<br>
+        Between you two,<br>
+        Bond doesn't stem,<br>
+        Although you're busy,<br>
+        They still care,<br>
+        They wish you could see,<br>
+        The silence they'd tear.
+    </h3>
+
+    <h3>
+        Title: The Woman<br>
+        The woman walked freely,<br>
+        Her eyes glimmered with grace,<br>
+        The woman was lovely,<br>
+        Her presence made hearts race,<br>
+        The woman always smiled,<br>
+        You could see it wide from a mile,<br>
+        The woman was a kind soul,<br>
+        To lighten the world was her goal,<br>
+        The woman loved and loved,<br>
+        She gave herself away,<br>
+        It felt like being harshly shoved,<br>
+        Because now she can't stay.
+    </h3>
+
+    <h3>
+        1/3/26<br>
+        Just Maybe:<br>
+        Maybe, just maybe, if I gave you a chance,<br>
+        Maybe, just maybe, if I gave you a glance,<br>
+        I should've known—<br>
+        I was cold and heartless,<br>
+        To do such a thing,<br>
+        You're not something I own,<br>
+        I was just careless,<br>
+        Now that you're gone,<br>
+        I build walls to cling,<br>
+        Because my comfort has been withdrawn.
+    </h3>
+
+    <h3>
+        12/24/25<br>
+        Flower:<br>
+        At first, you were the best thing ever,<br>
+        You were someone I couldn't let go,<br>
+        It felt like us forever,<br>
+        You were like a fresh flower,<br>
+        We met just when I felt low,<br>
+        But now, I'm starting to feel lower.<br><br>
+        Is it just me?<br>
+        Or were you just an illusion?<br>
+        With you, I felt free,<br>
+        Until you became rotten,<br>
+        Your pureness might be a delusion,<br>
+        But our love will never be forgotten.
+    </h3>
+
+    <img src="dkymist-dokyeom.gif" alt="Dokyeom gif" class="gif-right">
+    <div class="clear"></div>
+
     <h2>Prose</h2>
-    <h3>12/14/25<br>Title: My Message to My Angel<br>It's been years since you've left me, half a decade this year.<br>I still feel immense regret for not noticing the patterns.<br>You don't deserve sorrow and self-loathing; you're the light that shines bright in my life.<br>Before you passed away, I'd still see that wide grin, lips curled so perfectly I could kiss them forever. I wish I had been able to notice that it didn't even reach your eyes. You could've just told me, I would've gone beyond the line to help you.<br>I love you, darling.</h3>
-     <h3>My Other Half:<br>When I announce how you're my other half, people give me a weird glance. However, you really are my other half, and their stares won't halt the fact. You're the first person to trigger the rare comfort inside me—to be my safe space essentially. And now, I feel like I can't bear to lose you. You complete me in ways people, such as my parents, never did. It hurts to remember I was barely loved. Hopefully, you'd always stay by my side, as I was already broken before; I would be the worst, not worse, to be broken once more.</h3>
-            <img src="seventeen-dk-seventeen-dokyeom.gif" alt="dokkeyey" class="gif-right">
-</div>
-    <div>
-        <h2>Work In Progress (WIPs)</h2>
-        <h1>These are works I am still working on, though they will be updated every time I modify them.</h1>
-        <h3>Mixtape #01:<br>“Dude, what's up with you? You keep staring at her,” Nico points out as he plays with his new baseball. Lucas took his gaze off his friend, eyes falling to the floor sheepishly. As he thought of which words to let out, he recalled the lingering image of her. A sigh left Lucas' lips before his retort followed: “I can't get my eyes off of her.”<br><br>While the two friends conversed, Pablo was holding his camera, documenting their dialogue. “And then you, Pablo, keep recording every single thing we do,” Nico remarks, eyebrows knitted closely together at his two friends. Pablo, not bothering to put the gadget down, argued that it was for their memories. He considered adding the nostalgic vibe it gives off when they watch it later on, though he kept it to himself.</h3>
-    </div>
-     <div>
-        <h2>Links</h2>
-        <h3><a href="https://drive.google.com/drive/folders/1vN5xSAmSGoPNqlchRTn5pKQYvuUY_wQ9?usp=drive_link" target="_blank">Because I care</href><br><a href="https://docs.google.com/document/d/1nu_BMBnnR_xO9GZqe_vPiOmYTWdZsKv0bV4j8BbDvHI/edit?usp=sharing" target="_blank">Satisfied</href></h3>
-    </div>
-    <div>
-        <h1>That's all for now, arrivederci! :D</h1>
-        <img src="dk-dokyeom.gif" alt="dokyeomm">
-        <audio src="fastpace.mp3" controls></audio>
-    </div>
+
+    <h3>
+        12/14/25<br>
+        Title: My Message to My Angel<br>
+        It's been years since you've left me, half a decade this year.<br>
+        I still feel immense regret for not noticing the patterns.<br>
+        You don't deserve sorrow and self-loathing; you're the light that shines bright in my life.<br>
+        Before you passed away, I'd still see that wide grin, lips curled so perfectly I could kiss them forever.
+        I wish I had been able to notice that it didn't even reach your eyes.
+        You could've just told me, I would've gone beyond the line to help you.<br>
+        I love you, darling.
+    </h3>
+
+    <h3>
+        My Other Half:<br>
+        When I announce how you're my other half, people give me a weird glance.
+        However, you really are my other half, and their stares won't halt the fact.
+        You're the first person to trigger the rare comfort inside me—to be my safe space essentially.
+        And now, I feel like I can't bear to lose you.
+        You complete me in ways people, such as my parents, never did.
+        It hurts to remember I was barely loved.
+        Hopefully, you'd always stay by my side, as I was already broken before;
+        I would be the worst, not worse, to be broken once more.
+    </h3>
+
+    <img src="seventeen-dk-seventeen-dokyeom.gif" alt="Dokyeom gif" class="gif-right">
+    <div class="clear"></div>
+
+    <h2>Work In Progress (WIPs)</h2>
+
+    <h1>These are works I am still working on, though they will be updated every time I modify them.</h1>
+
+    <h3>
+        Mixtape #01:<br>
+        “Dude, what's up with you? You keep staring at her,” Nico points out as he plays with his new baseball.
+        Lucas took his gaze off his friend, eyes falling to the floor sheepishly.
+        As he thought of which words to let out, he recalled the lingering image of her.
+        A sigh left Lucas' lips before his retort followed: “I can't get my eyes off of her.”<br><br>
+        While the two friends conversed, Pablo was holding his camera, documenting their dialogue.
+        “And then you, Pablo, keep recording every single thing we do,” Nico remarks,
+        eyebrows knitted closely together at his two friends.
+        Pablo, not bothering to put the gadget down, argued that it was for their memories.
+        He considered adding the nostalgic vibe it gives off when they watch it later on,
+        though he kept it to himself.
+    </h3>
+
+    <h2>Links</h2>
+
+    <h3>
+        <a href="https://drive.google.com/drive/folders/1vN5xSAmSGoPNqlchRTn5pKQYvuUY_wQ9?usp=drive_link" target="_blank">
+            Because I care
+        </a>
+        <br>
+        <a href="https://docs.google.com/document/d/1nu_BMBnnR_xO9GZqe_vPiOmYTWdZsKv0bV4j8BbDvHI/edit?usp=sharing" target="_blank">
+            Satisfied
+        </a>
+    </h3>
+
+    <h1>That's all for now, arrivederci! :D</h1>
+
+    <img src="dk-dokyeom.gif" alt="Dokyeom gif">
+    <br><br>
+
+    <audio src="fastpace.mp3" controls></audio>
+
 </body>
 </html>
-
-
-
